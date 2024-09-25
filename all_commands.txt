@@ -1,0 +1,681 @@
+ these are the modifited commands
+    1  clear
+    2  ls
+    3  pwd
+    4  whoiam
+    5  lab_realease -a
+    6  lab_release -a
+    7  sudo apt install
+    8  lab_release -a
+    9  lsb_release -a
+   10  pwd
+   11  ls
+   12  clear
+   13  lsb release -a
+   14  lsb_release -a
+   15  date
+   16  time
+   17  clear
+   18  date
+   19  Time
+   20  ls
+   21  pwd
+   22  clear
+   23  echo "hello Ankush"
+   24  pwd
+   25  whoami
+   26  mkdir devops
+   27  ls
+   28  touch devops.txt
+   29  ls
+   30  cd devops/
+   31  pwd
+   32  cd /
+   33  pwd
+   34  ls
+   35  cd bin
+   36  ls
+   37  df -h
+   38  man cp
+   39  cd ..
+   40  df -f
+   41  cd
+   42  df -h
+   43  cd boot
+   44  cd /
+   45  cd boot
+   46  pwd
+   47  cd grub/
+   48  ls
+   49  var/
+   50  cd ..
+   51  cd /
+   52  tree
+   53  ls
+   54  cd home/
+   55  ls
+   56  cd ubuntu/
+   57  ls
+   58  cd /var
+   59  ls
+   60  cd ..
+   61  cd /
+   62  cd / home
+   63  ls
+   64  cd /home
+   65  cd
+   66  pwd
+   67  man pink
+   68  pwd
+   69  cd /devops
+   70  ls
+   71  touch file1.txt
+   72  ls
+   73  touch {2...10}.txt
+   74  ls
+   75  rm {2...10}.txt
+   76  ls
+   77  rm file{2...10}.txt
+   78  touch file{2...10}.txt
+   79  ls
+   80  rm file{2...10}.txt
+   81  ls
+   82  touch file{2..10}.txt
+   83  ls
+   84  mkdir day{00..90}}
+   85  l
+   86  ls
+   87  rm -r day*
+   88  ls
+   89  clear
+   90  ls
+   91  pwd
+   92  df -h
+   93  cd /home/ubuntu/
+   94  uuserdd -m jenny
+   95  useradd -m jenny
+   96  sudo useradd -m jenny
+   97  ls
+   98  xd /home
+   99  sudo apt install
+  100  cd /home
+  101  ls
+  102  clear
+  103  passswd jenny
+  104  sudo passwd jenny
+  105  su jenny
+  106  whoami
+  107  sudo su
+  108  sudo apt-get update
+  109  sudo apt-get install docker.io
+  110  clear
+  111  docker
+  112  whoami
+  113  ls
+  114  pwd
+  115  su ubuntu
+  116  cd..
+  117  exit
+  118  clear
+  119  sudo apt purge docker
+  120  sudo apt purge docker.io
+  121  claer
+  122  clear
+  123  docker
+  124  clear
+  125  cat  file1.txt
+  126  vim file1.txt
+  127  cat file1.txt
+  128  head file1.txt
+  129  tail file1.txt
+  130  head file1.txt -n 2
+  131  head file1.txt -n 5
+  132  cleear
+  133  clear
+  134  pwd
+  135  cat file1.txt
+  136  head file1.txt -n 1
+  137  head file1.txt -n 9
+  138  clear
+  139  su jenny
+  140  clear
+  141  c;ear
+  142  clear
+  143  sudo useradd -m guddu
+  144  sudo useradd -m munna
+  145  sudo useradd -m kaleen
+  146  cat /etc/passwd
+  147  su jenny
+  148  sudo passwd kaleen
+  149  su kaleen
+  150  Passs@123
+  151  su kaleen
+  152  sudo passwd kaleen
+  153  su kaleen
+  154  cat /etc/passwd
+  155  whoami
+  156  vim my-devops-file.txt
+  157  cat my-devops-file.txt
+  158  ls -l  my-devops-file.txt
+  159  sudo groupadd devops
+  160  cat /etc/passwd
+  161  cat /etc/group
+  162  sudo groupadd tester
+  163  cat /etc/group
+  164  useer mod
+  165  user mod
+  166  sudo usermod -aG devops ubuntu
+  167  cat /etc/group
+  168  sudo usermod -aG devops guddu
+  169  cat /etc/group
+  170  sudo usermod -aG tester kaleen
+  171  cat /etc/group
+  172  sudo gpasswd -M ubuntu,kaleen,guddu,munna teter
+  173  sudo gpasswd -M ubuntu,kaleen,guddu,munna tester
+  174  cat /etc/group
+  175  sudo chgrp devops my-devops-file.txt
+  176  ls -l my-devops-file.txt
+  177  mkdir devops-batch-7
+  178  ls -l mkdir devops-batch-7
+  179  ls -l
+  180  clea
+  181  clear
+  182  ls -l
+  183  sudo usermod -aG my-devops-file.txt devops-batch-7
+  184  sudo usermod -M  my-devops-file.txt devops-batch-7
+  185  clear
+  186  ls -l
+  187  chmod 777 my-devops-file.txt
+  188  ls -l  my-devops-file.txt
+  189  chmod 700 my-devops-file.txt
+  190  ls -l  my-devops-file.txt
+  191  chmod 740  my-devops-file.txt
+  192  ls -l  my-devops-file.txt
+  193  mv*. my-devops-file.txt devops-batch-7
+  194  mv*. my-devops-file.txt devops-batch-7/
+  195  mv* my-devops-file.txt devops-batch-7/
+  196  clear
+  197  ls -l
+  198  clear
+  199  dc .ssh
+  200  ls
+  201  ssh-key
+  202  cd,ssh
+  203  cd.ssh
+  204  cd .ssh
+  205  ls
+  206  vim
+  207  cd .ssh
+  208  ls
+  209  vim authorized_keys
+  210  cd .ssh
+  211  ls
+  212  vim authorized_keys
+  213  clear
+  214  clear
+  215  cd .ssh
+  216  ls
+  217  vim authorized_keys
+  218  cat authorized_keys
+  219  ssh -i id_ed25519 ubuntu@ec2-3-16-109-175.us-east-2.compute.amazonaws.com
+  220  clear
+  221  ls
+  222  vim authorized_keys
+  223  cat authorized_keys
+  224  ssh-keygen
+  225  cd .ssh
+  226  ls
+  227  cat id_ed25519.pub
+  228  cat id_ed25519
+  229  ssh -i id_ed25519 ubuntu@ec2-18-223-44-2.us-east-2.compute.amazonaws.com
+  230  ls
+  231  ls
+  232  cd scripts
+  233  ls
+  234  vim Chatur.sh
+  235  ls -l chatur.sh
+  236  chmod 600 chatur.ssh
+  237  vim Chatur.sh
+  238  ls -l Chutur.sh
+  239  ls -l Chatur.sh
+  240  chmod 600 Chatur.sh
+  241  ls -l Chatur.sh
+  242  chmod 700 Chatur.sh
+  243  ls -l Chatur.sh
+  244  ls
+  245  ./Chatur.sh
+  246  vim Chatur.sh
+  247  ls
+  248  ./Chatur.sh
+  249  vim Chatur.sh
+  250  ./Chatur.sh
+  251  vim Chatur.sh
+  252  ./Chatur.sh
+  253  vim Chatur.sh
+  254  ./Chatur.sh
+  255  vim Chatur.sh
+  256  ./Chatur.sh
+  257  ls
+  258  vim hello.sh
+  259  clear
+  260  vim Chatur.sh
+  261  ls
+  262  cd scripts
+  263  ls
+  264  vim Chatur.sh
+  265  ./Chatur.sh
+  266  ./Chatur.sh 30 29 1 2
+  267  ./Chatur.sh 1 3 4 2
+  268  vim Chatur.sh
+  269  ./Chatur.sh 1 3 4 2
+  270  vim Chatur.sh
+  271  ./Chatur.sh 1 3 4 2
+  272  ./Chatur.sh 29 30 1 2
+  273  vim Chatur.sh
+  274  ./Chatur.sh 29 30 1 2
+  275  vim create_user.sh
+  276  chmod 700 create_user.sh
+  277  ./create_user.sh
+  278  vim create_user.sh
+  279  ls
+  280  cd scripts/
+  281  ls
+  282  vim create_user.sh
+  283  clear
+  284  ls
+  285  mv *.txt devops-batch-7/
+  286  ls
+  287  mkdir scripts
+  288  cd scripts
+  289  ls
+  290  vim hello.sh
+  291  baash hello.sh
+  292  bash hello.sh
+  293  vim chatur.sh
+  294  clear
+  295  ls
+  296  cd scripts/
+  297  ls
+  298  Vim create_user.sh \
+  299  Vim create_user.sh
+  300  vim create_user.sh
+  301  ./create_user.sh
+  302  vim create_user.sh
+  303  ./create_user.sh
+  304  cat /etc/passwd
+  305  su koragg
+  306  whoami
+  307  sudo su koragg
+  308  clear
+  309  ls
+  310  cd scripts
+  311  ls
+  312  ./Chatur.sh
+  313  vim Chatur.sh
+  314  ./Chatur.sh
+  315  vim Chatur.sh
+  316  ./Chatur.sh
+  317  vim Chatur.sh
+  318  ./Chatur.sh
+  319  vim Chatur.sh
+  320  ./Chatur.sh
+  321  ./Chatur.sh 29 30 1 2
+  322  vim Chatur.sh
+  323  ./Chatur.sh 29 30 1 2
+  324  ls
+  325  vim Chatur.sh
+  326  ./Chatur.sh 29 30 1 2
+  327  vim Chatur.sh
+  328  clear
+  329  ls
+  330  cd scripts/
+  331  ls
+  332  vim create_user.sh
+  333  pwd
+  334  cat /etc/passwd
+  335  ./Chatur.sh
+  336  ./Chatur.sh 4 23 4 5
+  337  ls
+  338  cd scripts/
+  339  ls
+  340  vim create_user.sh
+  341  ./ create_user.sh
+  342  vim create_user.sh
+  343  ./ create_user.sh
+  344  chmod 700 create_user.sh
+  345  ./ create_user.sh
+  346  ./create_user.sh
+  347  b
+  348  vim create_user.sh
+  349  ./create_user.sh
+  350  mv create_user.sh  user_management.sh
+  351  ls
+  352  ./user_management.sh
+  353  vim user_management.sh
+  354  ./user_management.sh
+  355  vim user_management.sh
+  356  ./user_management.sh
+  357  b
+  358  ./user_management.sh
+  359  cat /etc/passwd
+  360  ./user_management.sh
+  361  cat /etc/passwd
+  362  vim user_management.sh
+  363  ./user_management.sh
+  364  ./user_management.sh  c d
+  365  ./user_management.sh  c
+  366  ./user_management.sh  d
+  367  vim user_management.sh
+  368  ./user_management.sh c
+  369  vim user_management.sh
+  370  ./user_management.sh c
+  371  ./user_management.sh d
+  372  ./user_management.sh cd
+  373  ./user_management.sh d
+  374  ls
+  375  cd scripts/
+  376  ls
+  377  ls backup
+  378  vim backup.sh
+  379  chmod 700 backup.sh
+  380  pwd
+  381  ./backup /home/ubuntu/scripts
+  382  ./backup.sh /home/ubuntu/scripts
+  383  ls
+  384  vim backup.sh
+  385  ./backup.sh /home/ubuntu/scripts
+  386  vim backup.sh
+  387  ./backup.sh /home/ubuntu/scripts
+  388  vim backup.sh
+  389  ls
+  390  cd scripts/
+  391  vim backup.sh
+  392  cd ..
+  393  cd backups/
+  394  crontab -e
+  395  ls
+  396  rm backup_2024-09-24-1*
+  397  ls
+  398  crontab -e
+  399  ls
+  400  crontab -e
+  401  cd ..
+  402  ls
+  403  cd scripts/
+  404  vim backup.sh
+  405  ls
+  406  vim scripts backup.sh
+  407  ls
+  408  ls
+  409  cd scripts/
+  410  ./backup.sh
+  411  ./backup.sh /home/ubuntu/scripts
+  412  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  413  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  414  cd ..
+  415  ls
+  416  cd backups/
+  417  ls
+  418  cd ..
+  419  cd scripts/
+  420  vim backup.sh
+  421  clear
+  422  ls
+  423  cd scripts/
+  424  ls
+  425  vim backup.sh
+  426  sudo apt-get install zip
+  427  ./backup.sh /home/ubuntu/scripts
+  428  vim backup.sh
+  429  ./backup.sh /home/ubuntu/scripts
+  430  sudo apt-get install zip
+  431  ./backup.sh /home/ubuntu/scripts
+  432  sudo apt-get install zip
+  433  ./backup.sh /home/ubuntu/scripts
+  434  cd..
+  435  mkdir -p /home/ubuntu/scripts/backup_2024/09/24/14/59/12/
+  436  ls -ld /home/ubuntu/scripts/backup_2024/09/24/14/59/
+  437  df -h
+  438  ./backup.sh /home/ubuntu/scripts
+  439  sudo apt-get install zip
+  440  zip -r /path/to/output.zip /path/to/source
+  441  zip ~/test.zip ~/somefile.txt
+  442  sudo apt-get install zip
+  443  ./backup.sh
+  444  ./backup.sh /home/ubuntu/scripts/
+  445  vim backup.sh
+  446  ls
+  447  rm backup
+  448  rm backup_2024
+  449  rm -r backup_2024
+  450  ls
+  451  vim backup.sh
+  452  ./backup.sh /home/ubuntu/scripts
+  453  ls
+  454  vim backup.sh
+  455  cd ..
+  456  ls
+  457  cd backups/
+  458  ls
+  459  mkdir backups
+  460  ls
+  461  cd backups/
+  462  pwd
+  463  cd ..
+  464  cd scripts/
+  465  pwd
+  466  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  467  cd ..
+  468  cd backups/
+  469  ls
+  470  cd ..
+  471  cd scripts/
+  472  vim backup.sh
+  473  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  474  vim backup.sh
+  475  cd ..
+  476  ls -t backip_*
+  477  ls -t backup_*
+  478  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  479  ls -t backup_*
+  480  ls -t /home/ubuntu/backups
+  481  vim scripts/backup.sh
+  482  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  483  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backup
+  484  cd scripts/
+  485  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  486  vim backup.sh
+  487  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  488  vim backup.sh
+  489  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  490  vim backup.sh
+  491  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  492  vim backup.sh
+  493  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  494  vim backup.sh
+  495  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  496  vim backup.sh
+  497  cd ..
+  498  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  499  cd scripts/
+  500  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  501  cd ..
+  502  cd scripts/
+  503  ./backup.sh /home/ubuntu/scripts /home/ubuntu/backups
+  504  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  505  vim backup.sh
+  506  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  507  ls
+  508  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  509  vim backup.sh
+  510  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  511  vim backup.sh
+  512  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  513  vim backup.sh
+  514  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  515  vim backup.sh
+  516  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  517  vim backup.sh
+  518  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  519  vim backup.sh
+  520  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  521  vim backup.sh
+  522  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  523  vim backup.sh
+  524  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  525  vim backup.sh
+  526  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  527  vim backup.sh
+  528  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  529  vim backup.sh
+  530  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  531  vim backup.sh
+  532  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  533  vim backup.sh
+  534  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  535  cd ..
+  536  cd backups/
+  537  ls
+  538  cd ..
+  539  cd scripts/
+  540  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  541  vim backup.sh
+  542  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  543  vim backup.sh
+  544  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  545  cd ..
+  546  cd backups/
+  547  ls
+  548  cd ..
+  549  cd scripts/
+  550  vim backup.sh
+  551  ./backup.sh /home/ubuntu/scripts/ /home/ubuntu/backups
+  552  cd ..
+  553  cd backups/
+  554  ls
+  555  ls
+  556  cd scripts/
+  557  vim backup.sh
+  558  ls
+  559  cd scripts/
+  560  vim backup.sh
+  561  crontab -e
+  562  cd ..
+  563  cd backups/
+  564  ls
+  565  pewwd
+  566  pwd
+  567  ks
+  568  ls
+  569  cd ..
+  570  cd scripts/
+  571  vim backup.sh
+  572  git
+  573  git ---version
+  574  git --version
+  575  ls
+  576  mkdir git-tutorial
+  577  ls
+  578  cd git-tutorial/
+  579  mkdir devops-project-batch-7
+  580  ls
+  581  mkdir devops-practice-project
+  582  ls
+  583  cd devops-project-batch-7/
+  584  git init
+  585  ls
+  586  ls -a
+  587  cd .git/
+  588  ls
+  589  cd ..
+  590  cd devops-practice-project/
+  591  ls -a
+  592  cd ..
+  593  cd devops-project-batch-7/
+  594  ls -a
+  595  touch laila.txt
+  596  ls
+  597  touch majnu.txt
+  598  ls -l
+  599  git status
+  600  ls
+  601  cd git-tutorial/
+  602  ls
+  603  cd devops-pro
+  604  cd devops-project-batch-7/
+  605  ls
+  606  git status
+  607  git commit -m "feat: added laila majnu"
+  608  ls
+  609  git status
+  610  git log
+  611  rm majnu.txt
+  612  ls
+  613  git log
+  614  git status
+  615  git restore majnu.txt
+  616  ls
+  617  history
+  618  clear
+  619  ls
+  620  cd git-tutorial/
+  621  ls
+  622  cd devops-project-batch-7/
+  623  ls
+  624  git status
+  625  rm laila.txt
+  626  ls
+  627  touch laila.txt
+  628  ls
+  629  git status
+  630  git add laila.txt
+  631  git status
+  632  git add majnu.txt
+  633  git status
+  634  git rm --cached laila.txt
+  635  ls
+  636  git status
+  637  git add laila.txt
+  638  git status
+  639  clear
+  640  l
+  641  ls
+  642  cd git-tutorial/
+  643  ls
+  644  cd devops-project-batch-7/
+  645  ls
+  646  git status
+  647  ls
+  648  touch file1.txt
+  649  lss
+  650  ls
+  651  git status
+  652  git commit -m "feat:added all commands"
+  653  touch all commands
+  654  ls
+  655  git commit -m "feat:added all commands"
+  656  rm all commands
+  657  ls
+  658  touch all commands.txt
+  659  ls
+  660  git add all commands.txt
+  661  git status
+  662  git rm --staged all
+  663  git status
+  664  rm all
+  665  ls
+  666  git status
+  667  ls
+  668  rm commands.txt
+  669  ls
+  670  touch all_commands.txt
+  671  touch file2.txt
+  672  touch file3.txt
+  673  ls
+  674  git add all_commands.txt
+  675  git status
+  676  git commit -m "feat:added all_commands"
+  677  git config --gobal user.name "Koragg05"
+  678  git config --global user.name "Koragg05"
+  679  git config --global user.email "ankushkharche05@gmail.com"
+  680  history
